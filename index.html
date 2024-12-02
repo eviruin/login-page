@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>login page</title>
+</head>
+<body>
+    <!-- section form start -->
+    <div class="container" id="container">
+        <div class="form-container sign-in">
+            <form class="container">
+                <h1>Sign In</h1>
+                <span>Gunakan Gmail Dan Password Anda</span>
+                <input type="email" placeholder="Email/Username">
+                <input type="password" placeholder="Password">
+                <button>Sign In</button>
+                <a href="#">Lupa Password Anda?</a>
+            </form>
+        </div>
+        <div class="form-container sign-up">
+            <form class="container">
+                <h1>Sign Up</h1>
+                <span>Gunakan Gmail Dan Password Anda</span>
+                <input type="username" placeholder="Username">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+                <a href="#">Lupa Password Anda?</a>
+            </form>
+        </div>
+        <!-- section form end -->
+
+        <!-- panel sambutan start -->
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h2>Selamat Datang, Kembali!</h1>
+                    <p>Bergabunglah Bersama Kami, Dan Buat Akun Disini</p>
+                    <button class="hidden" id="login">Sign Up</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h2>Selamat Datang!</h1>
+                    <p>Apakah Anda Sudah Memiliki Akun? Silahkan Login Disini</p>
+                    <button class="hidden" id="logout">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- panel sambutan end -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
